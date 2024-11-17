@@ -83,7 +83,7 @@ class MainTest {
 
         member.setEmail("test@example.com");
         member.setPassword("password");
-        member.setRoles(Arrays.asList(roleUser, roleAdmin));
+        member.setAuthorities(Arrays.asList(roleUser, roleAdmin));
 
         role = new Role();
         role.setId(1L);
